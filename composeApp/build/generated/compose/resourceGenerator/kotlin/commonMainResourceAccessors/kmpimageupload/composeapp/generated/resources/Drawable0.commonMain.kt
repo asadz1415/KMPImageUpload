@@ -15,6 +15,9 @@ private object CommonMainDrawable0 {
   public val ic_camera: DrawableResource by 
       lazy { init_ic_camera() }
 
+  public val ic_delete: DrawableResource by 
+      lazy { init_ic_delete() }
+
   public val ic_error_dialog: DrawableResource by 
       lazy { init_ic_error_dialog() }
 
@@ -23,15 +26,20 @@ private object CommonMainDrawable0 {
 
   public val ic_person_circle: DrawableResource by 
       lazy { init_ic_person_circle() }
+
+  public val upload_image: DrawableResource by 
+      lazy { init_upload_image() }
 }
 
 @InternalResourceApi
 internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, DrawableResource>) {
   map.put("compose_multiplatform", CommonMainDrawable0.compose_multiplatform)
   map.put("ic_camera", CommonMainDrawable0.ic_camera)
+  map.put("ic_delete", CommonMainDrawable0.ic_delete)
   map.put("ic_error_dialog", CommonMainDrawable0.ic_error_dialog)
   map.put("ic_images", CommonMainDrawable0.ic_images)
   map.put("ic_person_circle", CommonMainDrawable0.ic_person_circle)
+  map.put("upload_image", CommonMainDrawable0.upload_image)
 }
 
 internal val Res.drawable.compose_multiplatform: DrawableResource
@@ -54,6 +62,17 @@ private fun init_ic_camera(): DrawableResource = org.jetbrains.compose.resources
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmpimageupload.composeapp.generated.resources/drawable/ic_camera.xml", -1, -1),
+    )
+)
+
+internal val Res.drawable.ic_delete: DrawableResource
+  get() = CommonMainDrawable0.ic_delete
+
+private fun init_ic_delete(): DrawableResource = org.jetbrains.compose.resources.DrawableResource(
+  "drawable:ic_delete",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmpimageupload.composeapp.generated.resources/drawable/ic_delete.xml", -1, -1),
     )
 )
 
@@ -89,5 +108,17 @@ private fun init_ic_person_circle(): DrawableResource =
     setOf(
       org.jetbrains.compose.resources.ResourceItem(setOf(),
     "composeResources/kmpimageupload.composeapp.generated.resources/drawable/ic_person_circle.xml", -1, -1),
+    )
+)
+
+internal val Res.drawable.upload_image: DrawableResource
+  get() = CommonMainDrawable0.upload_image
+
+private fun init_upload_image(): DrawableResource =
+    org.jetbrains.compose.resources.DrawableResource(
+  "drawable:upload_image",
+    setOf(
+      org.jetbrains.compose.resources.ResourceItem(setOf(),
+    "composeResources/kmpimageupload.composeapp.generated.resources/drawable/upload_image.png", -1, -1),
     )
 )

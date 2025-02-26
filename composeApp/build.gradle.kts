@@ -43,6 +43,10 @@ kotlin {
             implementation(compose.foundation)
             implementation(compose.material)
             implementation(compose.ui)
+            implementation(libs.navigation.compose)
+            implementation(compose.animation)
+            implementation(libs.kotlinx.serialization.json)
+            implementation(compose.components.uiToolingPreview)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
         }

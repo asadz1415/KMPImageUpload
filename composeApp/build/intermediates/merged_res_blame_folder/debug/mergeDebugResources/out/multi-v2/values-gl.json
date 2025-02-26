@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "org.image.project.composeApp-mergeDebugResources-47:/values-gl/values-gl.xml",
+            "outputFile": "org.image.project.composeApp-mergeDebugResources-54:/values-gl/values-gl.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/bb6ae9d81241e40feea21738d4452433/transformed/foundation-release/res/values-gl/values-gl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,154",
-                        "endColumns": "98,100",
-                        "endOffsets": "149,250"
-                    },
-                    "to": {
-                        "startLines": "28,29",
-                        "startColumns": "4,4",
-                        "startOffsets": "2532,2631",
-                        "endColumns": "98,100",
-                        "endOffsets": "2626,2727"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/2a3786bd41f2eb6a96ff785572e9ccba/transformed/ui-release/res/values-gl/values-gl.xml",
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/e8fe3bfd3f1e4151f3414545b5fffc47/transformed/ui-release/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/08c2960aa05b4bbea66f28e1ea007971/transformed/core-1.13.1/res/values-gl/values-gl.xml",
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/8181a63296e4789bb249e66237f427b8/transformed/foundation-release/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,154",
+                        "endColumns": "98,100",
+                        "endOffsets": "149,250"
+                    },
+                    "to": {
+                        "startLines": "28,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "2532,2631",
+                        "endColumns": "98,100",
+                        "endOffsets": "2626,2727"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/eb7de267fc7243b7da19df238fc5322e/transformed/core-1.13.1/res/values-gl/values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

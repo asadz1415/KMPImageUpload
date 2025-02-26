@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "org.image.project.composeApp-mergeDebugResources-47:/values-ky/values-ky.xml",
+            "outputFile": "org.image.project.composeApp-mergeDebugResources-54:/values-ky/values-ky.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/2a3786bd41f2eb6a96ff785572e9ccba/transformed/ui-release/res/values-ky/values-ky.xml",
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/eb7de267fc7243b7da19df238fc5322e/transformed/core-1.13.1/res/values-ky/values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,257,360,467,571,675,786",
+                        "endColumns": "99,101,102,106,103,103,110,100",
+                        "endOffsets": "150,252,355,462,566,670,781,882"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,24",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,307,410,517,621,725,2127",
+                        "endColumns": "99,101,102,106,103,103,110,100",
+                        "endOffsets": "200,302,405,512,616,720,831,2223"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/e8fe3bfd3f1e4151f3414545b5fffc47/transformed/ui-release/res/values-ky/values-ky.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/bb6ae9d81241e40feea21738d4452433/transformed/foundation-release/res/values-ky/values-ky.xml",
+                    "source": "/Users/apple/.gradle/caches/8.9/transforms/8181a63296e4789bb249e66237f427b8/transformed/foundation-release/res/values-ky/values-ky.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2493,2592",
                         "endColumns": "98,103",
                         "endOffsets": "2587,2691"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/8.9/transforms/08c2960aa05b4bbea66f28e1ea007971/transformed/core-1.13.1/res/values-ky/values-ky.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,257,360,467,571,675,786",
-                        "endColumns": "99,101,102,106,103,103,110,100",
-                        "endOffsets": "150,252,355,462,566,670,781,882"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,24",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,307,410,517,621,725,2127",
-                        "endColumns": "99,101,102,106,103,103,110,100",
-                        "endOffsets": "200,302,405,512,616,720,831,2223"
                     }
                 }
             ]
